@@ -1,0 +1,13 @@
+import java.io.IOException;
+
+public class ThrowDemo {
+
+	public static void main(String[] args) {
+		checkFile();
+	}
+
+	public static void checkFile() throws IOException {
+
+	}
+
+}

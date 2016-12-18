@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 3 elements to &apos;Inheritance/src/packageOne&apos;&#x0D;&#x0A;- Original project: &apos;Inheritance&apos;&#x0D;&#x0A;- Destination element: &apos;Inheritance/src/packageOne&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     InheritanceDemo.java&#x0D;&#x0A;     Car.java&#x0D;&#x0A;     SportsCar.java&#x0D;&#x0A;- Update references to refactored element" description="Move compilation units" destination="/src&lt;packageOne" element1="/src&lt;{InheritanceDemo.java" element2="/src&lt;{Car.java" element3="/src&lt;{SportsCar.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1468339123812" units="3" version="1.0"/>
+</session>

@@ -1,0 +1,28 @@
+public class HelloWorld {
+
+	public static void main(String args[]) {
+		System.out.println("Hello Everyone :)");
+		int num = 10, num2 = 300;
+		int num3 = 0, num4 = 0;
+
+		System.out.println(num);
+		System.out.println(num2);
+		System.out.println(num3);
+		System.out.println(num4);
+
+		char c = 'a';
+
+		System.out.println(c);
+
+		long lNum = 454545345345L;
+
+		double dNum = 12.34343;
+
+		boolean b = true;
+
+		System.out.println(lNum);
+		System.out.println(dNum);
+		System.out.println(b);
+
+	}
+}

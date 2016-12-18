@@ -1,0 +1,29 @@
+import java.io.IOException;
+import java.net.MalformedURLException;
+
+public class ThrowDemo {
+
+	public static void main(String[] args) {
+		try {
+			checkFile(null);
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+	public static void checkFile(String url, int num)
+			throws InterruptedException {
+		if (url == null) {
+			throw new MalformedURLException();
+		}
+
+		if (num > 10) {
+			throw new IOException();
+		}
+	}
+
+}

@@ -1,0 +1,18 @@
+public class TryCatchDemo {
+
+	public static void main(String[] args) {
+		int arr[] = new int[5];
+		try {
+			System.out.println("First Line");
+			int ans = 10 / 0;
+			System.out.println("After division");
+			System.out.println(arr[10]);
+			System.out.println("Last Line");
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("Something went wrong");
+		}
+
+		System.out.println("Line after exception");
+	}
+}

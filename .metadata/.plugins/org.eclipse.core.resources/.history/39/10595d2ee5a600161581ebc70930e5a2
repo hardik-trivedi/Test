@@ -1,0 +1,16 @@
+public class TryCatchDemo {
+
+	public static void main(String[] args) {
+		int arr[] = new int[5];
+		try {
+			int ans = 10 / 0;
+
+			System.out.println(arr[10]);
+		} catch (Exception e) {
+			e.printStackTrace();
+			System.out.println("Something went wrong");
+		}
+
+		System.out.println("Line after exception");
+	}
+}

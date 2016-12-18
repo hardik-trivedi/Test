@@ -1,0 +1,34 @@
+public class BreakContinueDemo {
+
+	public static void main(String[] args) {
+		for (int i = 1; i <= 10; i++) {
+			System.out.println("Searching");
+			if (i == 5) {
+				System.out.println("Record Found");
+				break;
+			}
+			System.out.println("Searching More");
+		}
+
+		System.out.println("Searching ends");
+
+		System.out.println();
+		System.out.println();
+
+		for (int i = 1; i <= 10; i++) {
+			System.out.println("Searching");
+			if (i == 5) {
+				System.out.println("5 Record Found");
+				continue;
+			}
+			if (i == 7) {
+				System.out.println("7 Record Found");
+				break;
+			}
+			System.out.println("Searching More");
+		}
+
+		System.out.println("Searching ends");
+	}
+
+}

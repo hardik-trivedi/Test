@@ -1,0 +1,16 @@
+public class IfDemo {
+
+	public static void main(String[] args) {
+
+		/*
+		 * if (false) { System.out.println("If condition is evaluated");
+		 * System.out.println("Second line"); }
+		 */
+		int age = 20;
+		if (age > 18) {
+			
+		}
+
+	}
+
+}

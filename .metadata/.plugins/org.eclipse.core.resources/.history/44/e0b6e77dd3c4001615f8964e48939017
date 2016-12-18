@@ -1,0 +1,11 @@
+public class IfDemo {
+
+	public static void main(String[] args) {
+
+		if (true)
+			System.out.println("If condition is evaluated");
+		System.out.println("Second line");
+
+	}
+
+}

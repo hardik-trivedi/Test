@@ -1,0 +1,16 @@
+public class BreakContinueDemo {
+
+	public static void main(String[] args) {
+		for (int i = 1; i <= 10; i++) {
+			System.out.println("Searching");
+			if (i == 5) {
+				System.out.println("Record Found");
+				break;
+			}
+			System.out.println("Searching More");
+		}
+
+		System.out.println("Searching ends");
+	}
+
+}
